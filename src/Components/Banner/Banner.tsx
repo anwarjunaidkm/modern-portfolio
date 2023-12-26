@@ -1,7 +1,14 @@
 import React from "react";
+interface bannerProps {
+  text: String;
+}
 
-function Banner() {
-  return <div className="text-white">Banner compen t</div>;
+function Banner({ text }: bannerProps) {
+  return (
+    <div className="text-white ">
+      <h1 className="text-9xl font-bold ">{text}</h1>
+    </div>
+  );
 }
 
 export default Banner;
