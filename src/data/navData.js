@@ -11,4 +11,9 @@ export const navData = [
     label: "Blogs",
     url: "/blogs",
   },
+  {
+    label: "Contact Us",
+    url:"/contact"
+  },
+  
 ];

@@ -15,7 +15,7 @@ const Navbar = ({ label, url }: NavbarProps) => {
       <div className="">
         <ul className="ul-item m-0 p-0">
           <Link className="" href={url}>
-            <li key={url} className="navbar-item">
+            <li key={url} className="navbar-item hover:text-[#94a3b8]">
               {label}
             </li>
           </Link>
