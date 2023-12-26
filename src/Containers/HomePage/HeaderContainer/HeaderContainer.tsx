@@ -9,9 +9,9 @@ function HeaderContainer() {
     <nav className="  flex justify-between bg-primary text-secondary h-16 items-center">
       <div className=" flex mx-auto justify-between w-full max-w-[1200px] ">
         <div className=" flex gap-5 ">
-          <h1>logo</h1>
+          <h1 className="font-extrabold text-5xl">BRISA</h1>
 
-          <div className=" flex gap-4 text-2xl font-bold ">
+          <div className=" flex gap-4 text-xl font-normal items-center ml-6">
             {navData.map((item, index) => (
               <Navbar key={index} label={item.label} url={item.url} />
             ))}
