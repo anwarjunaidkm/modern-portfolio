@@ -9,6 +9,9 @@ function TextSection() {
           In a world brimming with possibilities, we sprouted, seizing our
           destiny to create an extraordinary narrative - a tale that
           encapsulates laughter, tears, challenges, and triumphs...!
+          <div>
+            <button className=" border px-5 text-4xl my-4 ">More info</button>
+          </div>
         </p>
       </div>
     </div>
