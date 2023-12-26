@@ -10,28 +10,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#8432ab",
-        secondary: "#ff4d0d",
+        primary: "#0f172a",
+        secondary: "#f8fafc",
         base: "#464646",
       },
       textColor: {
-        base: "#464646",
-        primary: "#8432ab",
-        secondary: "#ff4d0d",
+        base: "#94a3b8",
+        primary: "#0f172a",
+        secondary: "#f8fafc",
       },
       backgroundColor: {
         base: "#ffffff",
-        primary: "#8432ab",
-        secondary: "#ff4d0d",
+        primary: "#0f172a",
+        secondary: "#f8fafc",
       },
       borderColor: {
         primary: "#8432ab",
-        secondary: "#ff4d0d",
+        secondary: "#f8fafc",
       },
       fill: {
         base: "#ffffff",
-        primary: "#8432ab",
-        secondary: "#ff4d0d",
+        primary: "#0f172a",
+        secondary: "#f8fafc",
       },
       fontSize: {
         xxs: "0.625rem", //10px
