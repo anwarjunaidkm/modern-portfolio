@@ -6,7 +6,7 @@ function TextSection() {
   return (
     <div>
       <div className="h-screen bg-primary flex justify-center flex-col items-center text-secondary w-full">
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
@@ -26,7 +26,7 @@ function TextSection() {
           <div>
             <button className=" border px-5 text-4xl my-4 ">More info</button>
           </div>
-        </motion.p>
+        </motion.div>
       </div>
     </div>
   );

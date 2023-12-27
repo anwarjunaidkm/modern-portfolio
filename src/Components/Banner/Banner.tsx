@@ -16,7 +16,7 @@ function Banner({ text }: bannerProps) {
         className="text-9xl text-center leading-normal font-bold "
       >
         {text} <br />
-        the <span className="px-1 text-violet-500">Gemini</span> era
+        the <span className="px-1 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text" >Gemini</span> era
       </motion.h1>
     </div>
   );
