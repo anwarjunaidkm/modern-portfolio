@@ -11,7 +11,7 @@ function HeaderContainer() {
         <div className=" flex gap-5 ">
           <h1 className="font-extrabold text-5xl">BRISA</h1>
 
-          <div className=" flex gap-4 text-xl font-normal items-center ml-6">
+          <div className="hidden md:flex gap-4 text-xl font-normal items-center ml-6">
             {navData.map((item, index) => (
               <Navbar key={index} label={item.label} url={item.url} />
             ))}
