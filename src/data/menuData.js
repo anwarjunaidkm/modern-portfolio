@@ -1,4 +1,4 @@
-export const navData = [
+export const menuData = [
   {
     label: "Home",
     url: "/home",
@@ -13,7 +13,6 @@ export const navData = [
   },
   {
     label: "Contact Us",
-    url:"/contact"
+    url: "/contact",
   },
-  
 ];
